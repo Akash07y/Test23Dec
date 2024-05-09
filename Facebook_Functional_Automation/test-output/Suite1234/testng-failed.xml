@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test123(failed)">
+    <classes>
+      <class name="tests.TestClass">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="captureScreenshotOfFailedTest"/>
+          <include name="closedBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifySettingPage"/>
+          <include name="lauchFrogotPasswordPage"/>
+        </methods>
+      </class> <!-- tests.TestClass -->
+      <class name="tests.TestClass2">
+        <methods>
+          <include name="captureScreenshotOfFailedTest"/>
+          <include name="closedBrowser"/>
+          <include name="verifyHomePage"/>
+          <include name="verifySettingPage"/>
+          <include name="lauchFrogotPasswordPage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.TestClass2 -->
+    </classes>
+  </test> <!-- Test123(failed) -->
+</suite> <!-- Failed suite [Suite1234] -->

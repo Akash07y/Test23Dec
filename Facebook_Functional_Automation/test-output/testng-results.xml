@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="0" failed="12" skipped="12">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-09T00:06:58 IST" name="RegressionSuite" finished-at="2024-05-09T00:07:25 IST" duration-ms="26899">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T00:06:58 IST" name="EdgeTest" finished-at="2024-05-09T00:06:59 IST" duration-ms="152">
+      <class name="tests.AmezonTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="launchBrowser" finished-at="2024-05-09T00:06:58 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:58 IST" name="afterClass" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest@815b41f]" started-at="2024-05-09T00:06:59 IST" name="closedBrowser" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest -->
+      <class name="tests.AmezonTest_2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="launchBrowser" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:58 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:58 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.AmezonTest.launchBrowser(AmezonTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="afterClass" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest_2@3b69e7d1]" started-at="2024-05-09T00:06:59 IST" name="closedBrowser" finished-at="2024-05-09T00:06:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest_2 -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-05-09T00:06:58 IST" name="ChormeTest" finished-at="2024-05-09T00:07:24 IST" duration-ms="26058">
+      <class name="tests.AmezonTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:06:58 IST" name="launchBrowser" finished-at="2024-05-09T00:07:07 IST" duration-ms="9045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:23 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:07:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:23 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:24 IST" duration-ms="1209" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="afterClass" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-05-09T00:07:24 IST" name="closedBrowser" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest -->
+      <class name="tests.AmezonTest_2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:07 IST" name="launchBrowser" finished-at="2024-05-09T00:07:08 IST" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:08 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:07:09 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:09 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:11 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:12 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:07:12 IST" duration-ms="120" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [729625451f783cbf89ec653029aad696, clearElement {id=f.99C737050280B809B77820708288259B.d.AB0B5BFCB20348B46FBBAFD110196D75.e.24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (729625451f783cbf89ec653029aad696)] -> xpath: (//a[@role='button'])[1]]
+Session ID: 729625451f783cbf89ec653029aad696]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [729625451f783cbf89ec653029aad696, clearElement {id=f.99C737050280B809B77820708288259B.d.AB0B5BFCB20348B46FBBAFD110196D75.e.24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52677/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (729625451f783cbf89ec653029aad696)] -> xpath: (//a[@role='button'])[1]]
+Session ID: 729625451f783cbf89ec653029aad696
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+at pom.ForgotPassword.clickOnCanceleButton(ForgotPassword.java:38)
+at tests.AmezonTest_2.verifyErrorMessageWhenPasswordFunctilotyIsUSed(AmezonTest_2.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:12 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:12 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:14 IST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:14 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:14 IST" duration-ms="150" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:14 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:14 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:16 IST" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:16 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:16 IST" duration-ms="128" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:16 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:16 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:18 IST" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:18 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:18 IST" duration-ms="127" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:18 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:18 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:20 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:20 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:21 IST" duration-ms="138" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:21 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:21 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:23 IST" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:23 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:23 IST" duration-ms="119" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:23 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:23 IST" name="afterClass" finished-at="2024-05-09T00:07:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest_2@4d5d943d]" started-at="2024-05-09T00:07:24 IST" name="closedBrowser" finished-at="2024-05-09T00:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest_2 -->
+    </test> <!-- ChormeTest -->
+    <test started-at="2024-05-09T00:06:58 IST" name="FirefoxTest" finished-at="2024-05-09T00:07:25 IST" duration-ms="26899">
+      <class name="tests.AmezonTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:06:58 IST" name="launchBrowser" finished-at="2024-05-09T00:07:03 IST" duration-ms="4578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:11 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:07:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:11 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:13 IST" duration-ms="1272" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest.lauchFrogotPasswordPage(AmezonTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:13 IST" name="afterClass" finished-at="2024-05-09T00:07:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-05-09T00:07:25 IST" name="closedBrowser" finished-at="2024-05-09T00:07:25 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest -->
+      <class name="tests.AmezonTest_2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:03 IST" name="launchBrowser" finished-at="2024-05-09T00:07:11 IST" duration-ms="8504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initilizePOMClasses()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:11 IST" name="initilizePOMClasses" finished-at="2024-05-09T00:07:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePOMClasses -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:11 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:14 IST" duration-ms="2674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctilotyIsUSed()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:14 IST" name="verifyErrorMessageWhenPasswordFunctilotyIsUSed" finished-at="2024-05-09T00:07:14 IST" duration-ms="102" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be7dbaa6ecebe2198da6efa75e5bde89, clearElement {id=f.E757FBDBBBBD0AAAD6176CBE77FEDEF7.d.BDB1BFB57BA23A2A8A2E1C27B74ECF77.e.24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52704/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (be7dbaa6ecebe2198da6efa75e5bde89)] -> xpath: (//a[@role='button'])[1]]
+Session ID: be7dbaa6ecebe2198da6efa75e5bde89]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be7dbaa6ecebe2198da6efa75e5bde89, clearElement {id=f.E757FBDBBBBD0AAAD6176CBE77FEDEF7.d.BDB1BFB57BA23A2A8A2E1C27B74ECF77.e.24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52704/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (be7dbaa6ecebe2198da6efa75e5bde89)] -> xpath: (//a[@role='button'])[1]]
+Session ID: be7dbaa6ecebe2198da6efa75e5bde89
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+at pom.ForgotPassword.clickOnCanceleButton(ForgotPassword.java:38)
+at tests.AmezonTest_2.verifyErrorMessageWhenPasswordFunctilotyIsUSed(AmezonTest_2.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctilotyIsUSed -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:14 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:14 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:16 IST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:16 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:16 IST" duration-ms="140" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:16 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:16 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:18 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:18 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:19 IST" duration-ms="125" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:19 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:21 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:19 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:21 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:21 IST" duration-ms="125" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:21 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:21 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:23 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:23 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:23 IST" duration-ms="121" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:23 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="lauchFrogotPasswordPage()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:23 IST" name="lauchFrogotPasswordPage" finished-at="2024-05-09T00:07:25 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFrogotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:25 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-05-09T00:07:25 IST" duration-ms="123" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
+at utils.Utility.getDataExcelSheet(Utility.java:14)
+at tests.AmezonTest_2.verifyPasswordShouldBeChangedSuccessfully(AmezonTest_2.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:25 IST" name="captureScreenshotOfFailedTest" finished-at="2024-05-09T00:07:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:25 IST" name="afterClass" finished-at="2024-05-09T00:07:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.AmezonTest_2@1165b38]" started-at="2024-05-09T00:07:25 IST" name="closedBrowser" finished-at="2024-05-09T00:07:25 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.AmezonTest_2 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
