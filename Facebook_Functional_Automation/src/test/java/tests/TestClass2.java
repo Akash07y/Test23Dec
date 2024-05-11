@@ -16,7 +16,10 @@ public class TestClass2 {
 	
 	@BeforeSuite
 	public void beforeSuite() {
-		System.out.println("Before Suite - TestClass_2");		
+		System.out.println("Before Suite - TestClass_2");	
+		System.out.println("Before Suite - TestClass_2");	
+		System.out.println("Before Suite - TestClass_2");	
+		System.out.println("Before Suite - TestClass_2");	
 	}
 	
 	@BeforeTest
