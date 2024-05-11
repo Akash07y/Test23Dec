@@ -22,4 +22,10 @@ public class Base {
 		WebDriver driver = new ChromeDriver();
 		return driver ;
 	}
+	
+	public static WebDriver openIEBrowser() {
+		//System.setProperties(null);
+		WebDriver driver = new ChromeDriver();
+		return driver ;
+	}
 }
