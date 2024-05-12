@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ForgotPassword {
 
-	@FindBy(xpath = ("//table//td//div"))
-	private WebElement message ;
+	@FindBy(xpath = ("//table//td"))
+	private WebElement message1234 ;
 	
 	@FindBy(xpath = ("//input[@type='text']"))
 	private WebElement emailOrPhoneNumber ;
