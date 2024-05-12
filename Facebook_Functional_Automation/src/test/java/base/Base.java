@@ -22,4 +22,9 @@ public class Base {
 		WebDriver driver = new ChromeDriver();
 		return driver ;
 	}
+	public static WebDriver openSafariBrowser() {
+		//System.setProperties(null);
+		WebDriver driver = new SafariDriver();
+		return driver ;
+	}
 }
